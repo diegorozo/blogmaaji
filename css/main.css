@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,500,700");
+body {
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+header {
+  background: url("../image/header.png") no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 100%;
+  height: 262px;
+  margin: 0 auto;
+}
+header h1 {
+  margin: 20px auto 0 auto;
+  text-align: center;
+  width: 100%;
+}
+header h1 img {
+  width: 30%;
+  margin: auto;
+}
+section .axblog {
+  border: 2px solid #f8e9dc;
+  margin: 10px 0;
+  padding: 10px;
+  color: #525252;
+  font-weight: 300;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+#navbar {
+  width: 90%;
+}
+#navbar li {
+  border-right: 1px solid #525252;
+}
+#navbar li a {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #525252;
+  font-weight: 500;
+}
+#navbar li:last-child {
+  border-right: none;
+}
+#navbar li a:hover {
+  background: #f8e9dc;
+}
+#navbar .active {
+  background: #f8e9dc;
+}
+section .axblog {
+  width: 100%;
+}
+section .axblog .titulo {
+  font-size: 16px;
+  text-align: center;
+  color: #e2a298;
+  font-weight: 300;
+}
+section .axblog .titulo img {
+  width: 50%;
+  margin: auto;
+  padding: 0;
+}
+section .axblog ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+section .axblog ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 40px;
+  background: #f6aaa1;
+  border-radius: 50%;
+  height: 40px;
+  text-align: center;
+  padding: 7px;
+  margin: 5px;
+}
+section .axblog ul li .fa {
+  color: #f2f0e0;
+  padding: 2px;
+  font-size: 20px;
+}
+section .axblog p {
+  font-weight: 300;
+  margin-top: 10px;
+  font-size: 14px;
+}
+section .axblog .titulo2 img {
+  width: 35%;
+  margin: auto;
+  padding: 0;
+}
+section .axblog .titulo3 h2 img {
+  width: 10%;
+  margin: auto;
+  padding: 0;
+}
+section .ax-sidebar p {
+  font-size: 12px;
+}
+section .ax-sidebar .media-left {
+  background: #f6aaa1;
+  padding: 19px 0;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+section .ax-sidebar .media-left a {
+  font-weight: 700;
+  color: #f2f0e0;
+}
+section .ax-sidebar .media-body {
+  vertical-align: top;
+  display: inline-block;
+  width: 200px;
+}
+section .ax-sidebar .media-body h4 {
+  font-size: 14px;
+}
+section .axarticle .titulo img {
+  width: 80%;
+}
+section .axarticle span p {
+  color: #f6aaa1;
+  font-weight: 500;
+  margin-top: 10px;
+}
+section .axarticle p {
+  font-weight: 300;
+  margin-top: 10px;
+  font-size: 14px;
+}
+section .axarticle blockquote p {
+  color: #f6aaa1;
+  font-weight: 500;
+}
