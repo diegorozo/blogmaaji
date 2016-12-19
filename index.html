@@ -36,11 +36,17 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav nav-justified">
             <li><a href="article1.html">Magic behind maaji</a></li>
-            <li><a href="#">lifestyle</a></li>
-            <li><a href="article3.html">fitness </a></li>
-            <li><a href="article4.html">earth warriors</a></li>
             <li><a href="article5.html">real mermaids</a></li>
-            <li><a href="#">this or that</a></li>
+            <li><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">lifestyle <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Recipes</a></li>
+					<li><a href="#">Travel</a></li>
+				</ul>
+            </li>
+            <li><a href="article3.html">fitness</a></li>
+            
+            <li><a href="article4.html">earth warriors</a></li>
+            <li><a href="#">DIY</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -52,7 +58,7 @@
 				<div class="col-md-8">
 					<article class="axblog">
 					<img class="img-responsive" alt="500x500" src="image/ax-home.jpg">
-					<h2 class="titulo"><img class="img-responsive" alt="500x500" src="image/ax-til1.png"></h2>
+					<h2 class="titulo">mix it· match it · flip it</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue metus eu est consectetur euismod. Praesent lacinia mattis libero viverra pellentesque. Nunc scelerisque diam ut mi mattis egestas. Morbi id pharetra purus. Suspendisse potenti. Fusce ligula orci, maximus vitae pellentesque eu, placerat ac urna. Proin at risus tincidunt, egestas leo non, fermentum arcu. Nulla scelerisque nec mi id dignissim. Mauris vitae nisl sed neque viverra sodales. In eu sapien nec risus volutpat sollicitudin</p>
 					</article>
 					<article class="axblog">
@@ -60,9 +66,7 @@
 							<img class="img-responsive" alt="500x500" src="image/ax-home2.png">
 						</div>
 						<div class="col-md-6">
-							<h2 class="titulo">
-								<img class="img-responsive" alt="500x500" src="image/ax-til2.png">
-							</h2>
+							<h2 class="titulo2">Coachella pure fun</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue metus eu est consectetur euismod. Praesent lacinia mattis libero viverra pellentesque. Nunc scelerisque diam ut mi mattis egestas. Morbi id pharetra purus. Suspendisse potenti. Fusce ligula orci, maximus vitae pellentesque eu, placerat ac urna. Proin at risus tincidunt, egestas leo non, fermentum arcu. Nulla scelerisque nec mi id dignissim. Mauris vitae nisl sed neque viverra sodales. In eu sapien nec risus volutpat sollicitudin</p>
 						</div>
 					</article>
@@ -71,17 +75,13 @@
 							<img class="img-responsive" alt="500x500" src="image/ax-home3.jpg">
 						</div>
 						<div class="col-md-6">
-							<h2 class="titulo2">
-								<img class="img-responsive" alt="500x500" src="image/ax-til3.png">
-							</h2>
+							<h2 class="titulo2">Aloha you</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue metus eu est consectetur euismod. Praesent lacinia mattis libero viverra pellentesque. Nunc scelerisque diam ut mi mattis egestas. Morbi id pharetra purus. Suspendisse potenti. Fusce ligula orci, maximus vitae pellentesque eu, placerat ac urna.</p>
 						</div>
 					</article>
 					<article class="axblog">
 						<img class="img-responsive" alt="500x500" src="image/ax-slide.png">
-						<h2 class="titulo2">
-								<img class="img-responsive" alt="500x500" src="image/ax-til4.png">
-						</h2>
+						<h2 class="titulo">#RealMermaid</h2>
 					</article>
 				</div>
 			
@@ -91,6 +91,9 @@
 								KEEP IN TOUCH
 						</h2>
 						<ul>
+							<li class="ax-redes">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</li>
 							<li class="ax-redes">
 								<i class="fa fa-facebook" aria-hidden="true"></i>
 							</li>
@@ -103,14 +106,12 @@
 							<li class="ax-redes">
 								<i class="fa fa-pinterest-p" aria-hidden="true"></i>
 							</li>
-							<li class="ax-redes">
-								<i class="fa fa-instagram" aria-hidden="true"></i>
-							</li>
+							
 						</ul>
 					</article>
 					<article class="axblog">
-						<h2 class="titulo2">
-								<img class="img-responsive" alt="500x500" src="image/ax-tildecem.png">
+						<h2 class="titulo3">
+								December
 						</h2>
 						<div class="media">
 							<div class="media-left">
@@ -178,8 +179,8 @@
 							</div>
 						</div>
 						<hr class="featurette-divider">
-						<h2 class="titulo2">
-								<img class="img-responsive" alt="500x500" src="image/ax-tiljanu.png">
+						<h2 class="titulo3">
+								January
 						</h2>
 						<div class="media">
 							<div class="media-left">
@@ -261,22 +262,32 @@
 						</div>
 					</article>
 					<article class="axblog">
-						<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3A12153710480%3Aplaylist%3A3cV2ULPTe8oRVMJhdRKK64" width="100%" height="400" frameborder="0" allowtransparency="true"></iframe> 
+						<h2 class="titulo3">
+								Playlist Maaji
+						</h2>
+						<iframe style="margin-top:10px;" src="https://embed.spotify.com/?uri=spotify%3Auser%3A12153710480%3Aplaylist%3A3cV2ULPTe8oRVMJhdRKK64" width="100%" height="400" frameborder="0" allowtransparency="true"></iframe> 
 					</article>
 				</div>
+			
+			
 			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<h2 class="titulo4">
-						<a class="" href="#top"><img style="margin:auto;width: 15%;" class="img-responsive text-center" alt="500x500" src="image/ax-til5.png"></a>
+						<a class="" href="#top">
+							Back to top
+						</a>
 					</h2>
 				</div>
 				<div class="col-md-4">
 					<article class="axblog">
-						<h2 class="titulo">
+						<h2 class="footer">
 								KEEP IN TOUCH
 						</h2>
 						<ul>
+							<li class="ax-redes">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</li>
 							<li class="ax-redes">
 								<i class="fa fa-facebook" aria-hidden="true"></i>
 							</li>
@@ -289,9 +300,7 @@
 							<li class="ax-redes">
 								<i class="fa fa-pinterest-p" aria-hidden="true"></i>
 							</li>
-							<li class="ax-redes">
-								<i class="fa fa-instagram" aria-hidden="true"></i>
-							</li>
+							
 						</ul>
 					</article>
 				</div>
@@ -301,7 +310,8 @@
 					</h2>
 				</div>
 			</div>
-		</div>
+		
+   </div>
     </section>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->

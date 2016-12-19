@@ -6,6 +6,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'maaji';
+  src: url("../fonts/maaji.woff2?v=4.6.3") format('woff2'), url("../fonts/maaji.woff?v=4.6.3") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: auto;
   font-family: 'Roboto', sans-serif;
@@ -29,7 +35,7 @@ header h1 img {
   margin: auto;
 }
 section .axblog {
-  border: 2px solid #f8e9dc;
+  border: 2px solid #76beba;
   margin: 10px 0;
   padding: 10px;
   color: #525252;
@@ -54,21 +60,56 @@ section .axblog {
   border-right: none;
 }
 #navbar li a:hover {
-  background: #f8e9dc;
+  background: #76beba;
 }
 #navbar .active {
-  background: #f8e9dc;
+  background: #76beba;
 }
 section .axblog {
   width: 100%;
 }
 section .axblog .titulo {
-  font-size: 16px;
+  font-size: 80px;
   text-align: center;
-  color: #e2a298;
+  color: #76beba;
   font-weight: 300;
+  font-family: 'maaji';
+  margin: 20px auto;
+  padding: 0;
 }
-section .axblog .titulo img {
+section .axblog .titulo2 {
+  font-size: 80px;
+  text-align: center;
+  color: #76beba;
+  font-weight: 300;
+  font-family: 'maaji';
+  margin: 30px auto;
+  padding: 0;
+  height: 65px;
+  width: 174px;
+  line-height: 47px;
+  height: 90px;
+}
+section .axblog .titulo3 {
+  font-size: 65px;
+  text-align: center;
+  color: #76beba;
+  font-weight: 300;
+  font-family: 'maaji';
+  margin: 0px auto;
+  padding: 0;
+  height: 60px;
+}
+section .axblog .footer {
+  font-size: 14px;
+  text-align: center;
+  color: #76beba;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+  height: auto;
+}
+section .axblog .footer img {
   width: 50%;
   margin: auto;
   padding: 0;
@@ -83,7 +124,7 @@ section .axblog ul li {
   display: inline-block;
   font-size: 16px;
   width: 40px;
-  background: #f6aaa1;
+  background: #76beba;
   border-radius: 50%;
   height: 40px;
   text-align: center;
@@ -99,6 +140,7 @@ section .axblog p {
   font-weight: 300;
   margin-top: 10px;
   font-size: 14px;
+  text-align: justify;
 }
 section .axblog .titulo2 img {
   width: 35%;
@@ -110,11 +152,33 @@ section .axblog .titulo3 h2 img {
   margin: auto;
   padding: 0;
 }
+section .titulo4 {
+  text-align: center;
+}
+section .titulo4 a {
+  font-size: 65px;
+  text-align: center;
+  color: #76beba;
+  font-weight: 300;
+  font-family: 'maaji';
+  margin: 20px auto;
+  padding: 0;
+  text-decoration: none;
+}
 section .ax-sidebar p {
   font-size: 12px;
 }
+section .ax-sidebar .titulo {
+  font-size: 14px;
+  text-align: center;
+  color: #76beba;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+  height: auto;
+}
 section .ax-sidebar .media-left {
-  background: #f6aaa1;
+  background: #76beba;
   padding: 19px 0;
   border-radius: 50%;
   width: 64px;
@@ -135,11 +199,17 @@ section .ax-sidebar .media-body {
 section .ax-sidebar .media-body h4 {
   font-size: 14px;
 }
-section .axarticle .titulo img {
-  width: 80%;
+section .axarticle .titulo {
+  font-size: 63px;
+  text-align: center;
+  color: #76beba;
+  font-weight: 300;
+  font-family: 'maaji';
+  margin: 20px auto;
+  padding: 0;
 }
 section .axarticle span p {
-  color: #f6aaa1;
+  color: #76beba;
   font-weight: 500;
   margin-top: 10px;
 }
@@ -147,8 +217,9 @@ section .axarticle p {
   font-weight: 300;
   margin-top: 10px;
   font-size: 14px;
+  text-align: justify;
 }
 section .axarticle blockquote p {
-  color: #f6aaa1;
+  color: #76beba;
   font-weight: 500;
 }
