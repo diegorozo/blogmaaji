@@ -100,6 +100,33 @@ section .axblog .titulo3 {
   padding: 0;
   height: 60px;
 }
+section .axblog .titulo4 {
+  font-size: 65px;
+  text-align: center;
+  color: #76beba;
+  font-weight: 300;
+  font-family: 'maaji';
+  margin: 0px auto;
+  padding: 0;
+  height: 87px;
+  line-height: 31px;
+  margin: 17px auto 0 auto;
+}
+section .axblog .titulo5 {
+  font-size: 14px;
+  text-align: center;
+  color: #76beba;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+  height: auto;
+}
+section .axblog .link {
+  color: #76beba;
+}
+section .axblog .link2:hover {
+  text-decoration: none;
+}
 section .axblog .footer {
   font-size: 14px;
   text-align: center;
@@ -222,4 +249,10 @@ section .axarticle p {
 section .axarticle blockquote p {
   color: #76beba;
   font-weight: 500;
+}
+.dropdown-menu>.active>a {
+  background: #76beba;
+}
+#navbar .dropdown-menu li {
+  border-right: none;
 }
