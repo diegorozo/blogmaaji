@@ -76,6 +76,7 @@ section .axblog .titulo {
   font-family: 'maaji';
   margin: 20px auto;
   padding: 0;
+  height: 64px;
 }
 section .axblog .titulo2 {
   font-size: 80px;
@@ -112,14 +113,16 @@ section .axblog .titulo4 {
   line-height: 31px;
   margin: 17px auto 0 auto;
 }
-section .axblog .titulo5 {
-  font-size: 14px;
+section .axblog .titulo6 {
+  font-size: 49px;
   text-align: center;
   color: #76beba;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
-  margin: 10px 0;
-  height: auto;
+  font-family: 'maaji';
+  padding: 0;
+  line-height: 44px;
+  height: 90px;
+  margin-top: 40px;
 }
 section .axblog .link {
   color: #76beba;
@@ -205,18 +208,13 @@ section .ax-sidebar .titulo {
   height: auto;
 }
 section .ax-sidebar .media-left {
-  background: #76beba;
-  padding: 19px 0;
-  border-radius: 50%;
-  width: 64px;
-  height: 64px;
   text-align: center;
   display: inline-block;
   vertical-align: top;
 }
 section .ax-sidebar .media-left a {
   font-weight: 700;
-  color: #f2f0e0;
+  color: #76beba;
 }
 section .ax-sidebar .media-body {
   vertical-align: top;
@@ -226,6 +224,9 @@ section .ax-sidebar .media-body {
 section .ax-sidebar .media-body h4 {
   font-size: 14px;
 }
+section .axarticle .ax-pie {
+  font-size: 12px;
+}
 section .axarticle .titulo {
   font-size: 63px;
   text-align: center;
@@ -234,6 +235,7 @@ section .axarticle .titulo {
   font-family: 'maaji';
   margin: 20px auto;
   padding: 0;
+  height: 75px;
 }
 section .axarticle span p {
   color: #76beba;
@@ -243,7 +245,7 @@ section .axarticle span p {
 section .axarticle p {
   font-weight: 300;
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
   text-align: justify;
 }
 section .axarticle blockquote p {
