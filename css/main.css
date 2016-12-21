@@ -84,10 +84,9 @@ section .axblog .titulo2 {
   color: #76beba;
   font-weight: 300;
   font-family: 'maaji';
-  margin: 30px auto;
+  margin: 50px auto 50px auto;
   padding: 0;
   height: 65px;
-  width: 174px;
   line-height: 47px;
   height: 90px;
 }
@@ -109,7 +108,7 @@ section .axblog .titulo4 {
   font-family: 'maaji';
   margin: 0px auto;
   padding: 0;
-  height: 87px;
+  height: 69px;
   line-height: 31px;
   margin: 17px auto 0 auto;
 }
@@ -126,6 +125,7 @@ section .axblog .titulo6 {
 }
 section .axblog .link {
   color: #76beba;
+  text-decoration: none;
 }
 section .axblog .link2:hover {
   text-decoration: none;
